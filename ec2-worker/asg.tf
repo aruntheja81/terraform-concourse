@@ -16,7 +16,7 @@ data "aws_ami" "ubuntu" {
 }
 
 module "is_ebs_optimised" {
-  source        = "github.com/skyscrapers/terraform-instances//is_ebs_optimised?ref=2.3.5"
+  source        = "github.com/skyscrapers/terraform-instances//is_ebs_optimised?ref=d9157c56881e2cd04bcb28723a9c7ffdbfebe3de"
   instance_type = "${var.instance_type}"
 }
 
